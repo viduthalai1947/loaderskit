@@ -569,8 +569,9 @@ a:hover{
    100%{opacity: 1; transform: rotate(360deg) scale(1.2);}   
 }
 
-/*reverse*/
-.reverse{
+/*cloud*/
+
+.cloud{
     margin: 42px 30px;
     width: 4px;
     height: 10px;
@@ -587,7 +588,7 @@ a:hover{
        -moz-animation: rain 1s linear infinite alternate;
             animation: rain 1s linear infinite alternate;
 }
-.reverse:after{
+.cloud:after{
     width: 40px;
     height: 10px;
     position: absolute;
