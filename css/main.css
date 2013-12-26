@@ -402,41 +402,7 @@ a:hover{
     100%{transform: rotate(360deg);}
 }
 
-/*download*/
-.download{
-    width: 20px;
-    height: 24px;
-    border-left: 1px rgba(255,255,255,0.8) solid;
-    border-right: 1px rgba(255,255,255,0.8) solid;
-    border-top: 1px rgba(255,255,255,0.8) solid;
-    position: relative;
-    margin: 34px auto;
-}
-.download:after{
-    position: absolute;
-    font-size: 12px;
-    content: "↓";
-    text-align: center;
-    left: 5px;
-    top: 10px;
-    -webkit-animation: downdown 1s linear infinite alternate;
-       -moz-animation: downdown 1s linear infinite alternate;
-            animation: downdown 1s linear infinite alternate;
-}
-@-webkit-keyframes downdown{
-    0%{ top: 6px;}
-    100%{ top: 12px;}
-}
-@-moz-keyframes downdown{
-    0%{ top: 6px;}
-    100%{ top: 12px;}
-}
-@keyframes downdown{
-    0%{ top: 6px;}
-    100%{ top: 12px;}
-}
-
-/*rocket*/
+/*eye ball*/
 .eye{
     width: 20px;
     height: 20px;
@@ -603,8 +569,8 @@ a:hover{
    100%{opacity: 1; transform: rotate(360deg) scale(1.2);}   
 }
 
-/*printer*/
-.cloud{
+/*reverse*/
+.reverse{
     margin: 42px 30px;
     width: 4px;
     height: 10px;
@@ -621,7 +587,7 @@ a:hover{
        -moz-animation: rain 1s linear infinite alternate;
             animation: rain 1s linear infinite alternate;
 }
-.cloud:after{
+.reverse:after{
     width: 40px;
     height: 10px;
     position: absolute;
