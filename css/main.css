@@ -85,7 +85,9 @@ a:hover{
     height: 2px;
     top: 11px;
     left: 11px;
-    transform-origin: 1px 1px;
+    -webkit-transform-origin: 1px 1px;
+       -moz-transform-origin: 1px 1px;
+            transform-origin: 1px 1px;
     -webkit-animation: minhand 2s linear infinite;
        -moz-animation: minhand 2s linear infinite;
             animation: minhand 2s linear infinite;
@@ -96,7 +98,9 @@ a:hover{
     height: 2px;
     top: 11px;
     left: 11px;
-    transform-origin: 1px 1px;
+    -webkit-transform-origin: 1px 1px;
+       -moz-transform-origin: 1px 1px;
+            transform-origin: 1px 1px;
     -webkit-animation: hrhand 8s linear infinite;
        -moz-animation: hrhand 8s linear infinite;
             animation: hrhand 8s linear infinite;
@@ -252,6 +256,7 @@ a:hover{
     border-radius: 100%;
     position: relative;
     overflow: hidden;
+    z-index: 1;
 }
 .dashboard:after, .dashboard:before{
     position: absolute;
@@ -261,7 +266,9 @@ a:hover{
     width:14px;
     height: 2px;
     top: 20px;
-    transform-origin: 1px 1px;
+    -webkit-transform-origin: 1px 1px;
+       -moz-transform-origin: 1px 1px;
+            transform-origin: 1px 1px;
     background-color: rgba(255,255,255,1);
     -webkit-animation: dashboard_hand 2s linear infinite alternate;
        -moz-animation: dashboard_hand 2s linear infinite alternate;
