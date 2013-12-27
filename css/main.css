@@ -103,8 +103,8 @@ a:hover{
 }
 
 @-webkit-keyframes minhand{
-    0%{-moz-transform:rotate(0deg)}
-    100%{-moz-transform:rotate(360deg)}
+    0%{-webkit-transform:rotate(0deg)}
+    100%{-webkit-transform:rotate(360deg)}
 }
 @-moz-keyframes minhand{
     0%{-moz-transform:rotate(0deg)}
@@ -116,8 +116,8 @@ a:hover{
 }
 
 @-webkit-keyframes hrhand{
-    0%{-moz-transform:rotate(0deg)}
-    100%{-moz-transform:rotate(360deg)}
+    0%{-webkit-transform:rotate(0deg)}
+    100%{-webkit-transform:rotate(360deg)}
 }
 @-moz-keyframes hrhand{
     0%{-moz-transform:rotate(0deg)}
@@ -275,12 +275,12 @@ a:hover{
     left: -2px;
 }
 @-webkit-keyframes dashboard_hand{
-    0%{ transform: rotate(-160deg);}
-    100%{ transform: rotate(-20deg);}
+    0%{ -webkit-transform: rotate(-160deg);}
+    100%{ -webkit-transform: rotate(-20deg);}
 }
 @-moz-keyframes dashboard_hand{
-    0%{ transform: rotate(-160deg);}
-    100%{ transform: rotate(-20deg);}
+    0%{ -moz-transform: rotate(-160deg);}
+    100%{ -moz-transform: rotate(-20deg);}
 }
 @keyframes dashboard_hand{
     0%{ transform: rotate(-160deg);}
