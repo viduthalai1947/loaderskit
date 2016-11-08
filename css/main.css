@@ -178,6 +178,22 @@ a:hover{
                     24px 0px 0px 0px rgba(255,255,255,1);
       }
 }
+@-ms-keyframes typing{
+   0%{
+        background-color: rgba(255,255,255, 1);
+        box-shadow: 12px 0px 0px 0px rgba(255,255,255,0.2),
+                    24px 0px 0px 0px rgba(255,255,255,0.2);
+      }
+    25%{
+        background-color: rgba(255,255,255, 0.4);
+        box-shadow: 12px 0px 0px 0px rgba(255,255,255,2),
+                    24px 0px 0px 0px rgba(255,255,255,0.2);
+    }
+    75%{ background-color: rgba(255,255,255, 0.4);
+        box-shadow: 12px 0px 0px 0px rgba(255,255,255,0.2),
+                    24px 0px 0px 0px rgba(255,255,255,1);
+      }
+}
 
 @keyframes typing{
    0%{
